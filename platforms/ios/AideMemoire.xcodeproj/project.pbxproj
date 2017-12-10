@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005C56D89D1F4073B85A3D8A /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6444B99D7CC14B68BEDA4425 /* ReaderViewController.m */; };
+		02D1FACDBA884E2AA81F4CDB /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E182B7C59E5346AB947C8955 /* ReaderThumbQueue.m */; };
+		06D409956589499AA5F0A11A /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EF51A9EEC2425EB9BEA9AA /* CDVInAppBrowser.m */; };
+		0CF535AD387E41F29737D679 /* Reader-Button-H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A63E091597445CC9A6DAFDF /* Reader-Button-H@2x.png */; };
+		0EB4AEB6D8164742A79C4DEE /* Reader-Print@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC547E6380F4D7994A38823 /* Reader-Print@3x.png */; };
+		102E3FCCCE274ABFAACAD839 /* Reader-Email@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4737DD4CF4464C72A33C8A29 /* Reader-Email@3x.png */; };
+		12D20B309EEB4629AE3F1812 /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 33851AA503DB4C13990B6A86 /* ReaderThumbRender.m */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1EFE03821907446B9856F48C /* Reader-Email.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D53CA517474875B06FE52E /* Reader-Email.png */; };
+		22839570AAEA42D392622659 /* Reader-Mark-Y@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D585F8C7D74687BC75912E /* Reader-Mark-Y@3x.png */; };
+		24FDEC8C65924BD0B4989014 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE0C9FC5642E89C4091CD /* ThumbsViewController.m */; };
+		2754F670FF424C1085F7D1FB /* Reader-Button-N@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3161D50686436998F808F8 /* Reader-Button-N@3x.png */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		322BA53C2F5A406E909853D8 /* Reader-Export.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1F35B7A2F24B98AAE64267 /* Reader-Export.png */; };
+		3C79097DE3EF499D918C3224 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0973A620FE5E4CC4B2C799FF /* UIXToolbarView.m */; };
+		3D2E0174746643E197DCFEBF /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A45FD2C83F44EC864F2D1B /* ThumbsMainToolbar.m */; };
+		40AC026E4748433391EA8E87 /* Reader-Thumbs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E62514D8D9544970A2ED3055 /* Reader-Thumbs@3x.png */; };
+		447F6B4229FA4EEF91195052 /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C383B2DB446FAA89EEC3F /* ReaderThumbCache.m */; };
+		4748890B1308402EB4FCCCCB /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C8361029BB964FB297F52B81 /* CGPDFDocument.m */; };
+		554F8E3F77DA4503B8A109A6 /* PdfViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE84F16AB64487ACAAEF24 /* PdfViewer.m */; };
+		5A2B0B29A3D84A449E771EAD /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6793B2CC3E845BDA5707383 /* ReaderContentView.m */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		6D063838A0FA45FF94BDA6AF /* Reader-Button-H.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BECC11B34A4CE79E28F5F1 /* Reader-Button-H.png */; };
+		6E8BE7081FD23C71009DF345 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8BE7071FD23C71009DF345 /* Images-2.xcassets */; };
+		740316B0DE8E442C9E7D6A9A /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A9FB54CF34225AD666741 /* ReaderContentTile.m */; };
+		794741BAAB254C6587A193A6 /* Reader-Print.png in Resources */ = {isa = PBXBuildFile; fileRef = E79409EDCE8C499B9F06680F /* Reader-Print.png */; };
+		7AA22BFA825B40C3A8EA529A /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D87C65111294662BAE1C1F7 /* ReaderMainToolbar.m */; };
+		864320CA3059450093858761 /* Reader-Thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 549FC3EF9A75435EB1A36F2D /* Reader-Thumbs.png */; };
+		9325916AF6304C08B01CAFD9 /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = FB48C43B0C754D2CBE3CEDB7 /* ReaderDocument.m */; };
+		9C02AD806EFD4C7CAC9C7B35 /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = C2822959DABD48819379F232 /* ReaderThumbFetch.m */; };
+		9DB605BCFB61496E888FFC42 /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552C5176BC24428A21E8BF7 /* ReaderConstants.m */; };
+		9E7332AB0D1D4E9CAB933B0F /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = C281998189574362892FE563 /* ReaderDocumentOutline.m */; };
+		AFCFA00E62664FA0B6312E39 /* Reader-Export@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65790E661CA24E3FB020083B /* Reader-Export@2x.png */; };
+		B214C436994A46A0BBD5EE3B /* Reader-Button-H@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCBC07965A9450583D23D34 /* Reader-Button-H@3x.png */; };
+		B4CD83F7ED29473790746E0C /* Reader-Button-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A4B306427894532A1716339 /* Reader-Button-N@2x.png */; };
+		B561A8BFC2434D60A5168940 /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DD44438C68425AA6D60930 /* ReaderContentPage.m */; };
+		B72DB9B1EE8D4549BA2DCEEE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3837B547BAD437AA7F64F9D /* Localizable.strings */; };
+		B8A32489DB5B4CE294380143 /* Reader-Mark-N.png in Resources */ = {isa = PBXBuildFile; fileRef = F78EA2B8077F4255B27E619E /* Reader-Mark-N.png */; };
+		B9DE777C7B3E4C1BACCA9D4B /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9247169D404244A874A6D8 /* ReaderThumbView.m */; };
+		BA74D645E6914EC9AB70CCC0 /* Reader-Mark-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2689DA92FB84BFA9728AD14 /* Reader-Mark-N@2x.png */; };
+		BC0C3C77A00747BE8901BD7E /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41982A0DF1FA444B96176B4C /* ReaderThumbRequest.m */; };
+		C1A1ED7F519E4B4682E23B8D /* Reader-Mark-Y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C889FFBE8166413290D361F5 /* Reader-Mark-Y@2x.png */; };
+		C46050ACE8ED43448349B3B3 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F6F8A1186412EB9FEB0D1 /* CDVStatusBar.m */; };
+		C611F0370E66426387BBA3BB /* Reader-Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D06EC48578E94F33A6FF05A6 /* Reader-Thumbs@2x.png */; };
+		C7FAEABEFFFE456C8525111C /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A07959F79F3B46B99A05D71B /* ReaderThumbsView.m */; };
+		E1D4D1E81955463BACB20528 /* Reader-Export@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E5EF4BD4894229B732B225 /* Reader-Export@3x.png */; };
+		E3550D37170A47C1AA50E7CF /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E7359B88874B988042931B /* ReaderMainPagebar.m */; };
+		E9AC3F86806843CCB06C5809 /* Reader-Mark-Y.png in Resources */ = {isa = PBXBuildFile; fileRef = A946DE4655774E81974F5322 /* Reader-Mark-Y.png */; };
+		F1F80C92821246088CE360E6 /* Reader-Print@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C81249E64D1433289B4081B /* Reader-Print@2x.png */; };
+		F6CD25A159064FABA276DF7F /* Reader-Button-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 1625950FC27048B48763974F /* Reader-Button-N.png */; };
+		FC0D00E3C0A74E94801580BB /* Reader-Email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C04B651E175C4580BEBF1270 /* Reader-Email@2x.png */; };
+		FCC9A316604A4757BFAA15F2 /* Reader-Mark-N@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D750FB54464E718F1B701D /* Reader-Mark-N@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		6E70A8B91FD05EE10008A492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
+			remoteInfo = Cordova;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C0301343C344D9A3FFD4E6 /* ReaderDocument.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderDocument.h; path = "cordova-plugin-lz-PdfViewer/ReaderDocument.h"; sourceTree = "<group>"; };
+		0973A620FE5E4CC4B2C799FF /* UIXToolbarView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = UIXToolbarView.m; path = "cordova-plugin-lz-PdfViewer/UIXToolbarView.m"; sourceTree = "<group>"; };
+		0CC547E6380F4D7994A38823 /* Reader-Print@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Print@3x.png"; sourceTree = "<group>"; };
+		104B9EBA1FB245FE809A9DEA /* ReaderThumbView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderThumbView.h; path = "cordova-plugin-lz-PdfViewer/ReaderThumbView.h"; sourceTree = "<group>"; };
+		1625950FC27048B48763974F /* Reader-Button-N.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Button-N.png"; sourceTree = "<group>"; };
+		1A63E091597445CC9A6DAFDF /* Reader-Button-H@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Button-H@2x.png"; sourceTree = "<group>"; };
+		1C0C3B8F6D2E40D3B7BDDBA7 /* ReaderViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderViewController.h; path = "cordova-plugin-lz-PdfViewer/ReaderViewController.h"; sourceTree = "<group>"; };
+		1C81249E64D1433289B4081B /* Reader-Print@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Print@2x.png"; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* AideMemoire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AideMemoire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD4EB6817754CAB9E28F533 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVInAppBrowser.h; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; };
+		1EFB3BB029954C89B1A74F89 /* ReaderThumbFetch.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderThumbFetch.h; path = "cordova-plugin-lz-PdfViewer/ReaderThumbFetch.h"; sourceTree = "<group>"; };
+		266EFE82663B40DDA76EA78E /* ReaderMainPagebar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderMainPagebar.h; path = "cordova-plugin-lz-PdfViewer/ReaderMainPagebar.h"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301A9FB54CF34225AD666741 /* ReaderContentTile.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderContentTile.m; path = "cordova-plugin-lz-PdfViewer/ReaderContentTile.m"; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* AideMemoire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AideMemoire-Prefix.pch"; sourceTree = "<group>"; };
+		33851AA503DB4C13990B6A86 /* ReaderThumbRender.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbRender.m; path = "cordova-plugin-lz-PdfViewer/ReaderThumbRender.m"; sourceTree = "<group>"; };
+		3A4B306427894532A1716339 /* Reader-Button-N@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Button-N@2x.png"; sourceTree = "<group>"; };
+		3D87C65111294662BAE1C1F7 /* ReaderMainToolbar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderMainToolbar.m; path = "cordova-plugin-lz-PdfViewer/ReaderMainToolbar.m"; sourceTree = "<group>"; };
+		41982A0DF1FA444B96176B4C /* ReaderThumbRequest.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbRequest.m; path = "cordova-plugin-lz-PdfViewer/ReaderThumbRequest.m"; sourceTree = "<group>"; };
+		4737DD4CF4464C72A33C8A29 /* Reader-Email@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Email@3x.png"; sourceTree = "<group>"; };
+		4DCBC07965A9450583D23D34 /* Reader-Button-H@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Button-H@3x.png"; sourceTree = "<group>"; };
+		50EF51A9EEC2425EB9BEA9AA /* CDVInAppBrowser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVInAppBrowser.m; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; };
+		549FC3EF9A75435EB1A36F2D /* Reader-Thumbs.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Thumbs.png"; sourceTree = "<group>"; };
+		5552C5176BC24428A21E8BF7 /* ReaderConstants.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderConstants.m; path = "cordova-plugin-lz-PdfViewer/ReaderConstants.m"; sourceTree = "<group>"; };
+		5F8C383B2DB446FAA89EEC3F /* ReaderThumbCache.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbCache.m; path = "cordova-plugin-lz-PdfViewer/ReaderThumbCache.m"; sourceTree = "<group>"; };
+		6444B99D7CC14B68BEDA4425 /* ReaderViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderViewController.m; path = "cordova-plugin-lz-PdfViewer/ReaderViewController.m"; sourceTree = "<group>"; };
+		65790E661CA24E3FB020083B /* Reader-Export@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Export@2x.png"; sourceTree = "<group>"; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = AideMemoire/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		6E8BE7071FD23C71009DF345 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images-2.xcassets"; path = "AideMemoire/Images-2.xcassets"; sourceTree = SOURCE_ROOT; };
+		74BECC11B34A4CE79E28F5F1 /* Reader-Button-H.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Button-H.png"; sourceTree = "<group>"; };
+		76E5EF4BD4894229B732B225 /* Reader-Export@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Export@3x.png"; sourceTree = "<group>"; };
+		7E7990EA5D7246039E913EF4 /* ReaderThumbRequest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderThumbRequest.h; path = "cordova-plugin-lz-PdfViewer/ReaderThumbRequest.h"; sourceTree = "<group>"; };
+		8026310938AD4902BD8FA26D /* ReaderThumbQueue.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderThumbQueue.h; path = "cordova-plugin-lz-PdfViewer/ReaderThumbQueue.h"; sourceTree = "<group>"; };
+		8781DAFA4899413388AE3737 /* ReaderMainToolbar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderMainToolbar.h; path = "cordova-plugin-lz-PdfViewer/ReaderMainToolbar.h"; sourceTree = "<group>"; };
+		87D585F8C7D74687BC75912E /* Reader-Mark-Y@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Mark-Y@3x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* AideMemoire-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AideMemoire-Info.plist"; path = "AideMemoire/AideMemoire-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		9CB50CA4BD1E4CF4B65E5AF7 /* ReaderThumbRender.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderThumbRender.h; path = "cordova-plugin-lz-PdfViewer/ReaderThumbRender.h"; sourceTree = "<group>"; };
+		9F2F6F8A1186412EB9FEB0D1 /* CDVStatusBar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; };
+		9F9247169D404244A874A6D8 /* ReaderThumbView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbView.m; path = "cordova-plugin-lz-PdfViewer/ReaderThumbView.m"; sourceTree = "<group>"; };
+		A07959F79F3B46B99A05D71B /* ReaderThumbsView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbsView.m; path = "cordova-plugin-lz-PdfViewer/ReaderThumbsView.m"; sourceTree = "<group>"; };
+		A90B37E0013F4FF9870E5235 /* ThumbsMainToolbar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ThumbsMainToolbar.h; path = "cordova-plugin-lz-PdfViewer/ThumbsMainToolbar.h"; sourceTree = "<group>"; };
+		A946DE4655774E81974F5322 /* Reader-Mark-Y.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Mark-Y.png"; sourceTree = "<group>"; };
+		AB3A5E559B844D8B9909F450 /* ReaderConstants.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderConstants.h; path = "cordova-plugin-lz-PdfViewer/ReaderConstants.h"; sourceTree = "<group>"; };
+		B5FC0155EE4946F78FA9A206 /* ReaderThumbsView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderThumbsView.h; path = "cordova-plugin-lz-PdfViewer/ReaderThumbsView.h"; sourceTree = "<group>"; };
+		BB3161D50686436998F808F8 /* Reader-Button-N@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Button-N@3x.png"; sourceTree = "<group>"; };
+		C04B651E175C4580BEBF1270 /* Reader-Email@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Email@2x.png"; sourceTree = "<group>"; };
+		C0D750FB54464E718F1B701D /* Reader-Mark-N@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Mark-N@3x.png"; sourceTree = "<group>"; };
+		C17E1F7B59154DCFB1AB0553 /* ReaderThumbCache.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderThumbCache.h; path = "cordova-plugin-lz-PdfViewer/ReaderThumbCache.h"; sourceTree = "<group>"; };
+		C2689DA92FB84BFA9728AD14 /* Reader-Mark-N@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Mark-N@2x.png"; sourceTree = "<group>"; };
+		C281998189574362892FE563 /* ReaderDocumentOutline.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderDocumentOutline.m; path = "cordova-plugin-lz-PdfViewer/ReaderDocumentOutline.m"; sourceTree = "<group>"; };
+		C2822959DABD48819379F232 /* ReaderThumbFetch.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbFetch.m; path = "cordova-plugin-lz-PdfViewer/ReaderThumbFetch.m"; sourceTree = "<group>"; };
+		C2A45FD2C83F44EC864F2D1B /* ThumbsMainToolbar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ThumbsMainToolbar.m; path = "cordova-plugin-lz-PdfViewer/ThumbsMainToolbar.m"; sourceTree = "<group>"; };
+		C444D59860B945A493ED5274 /* PdfViewer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PdfViewer.h; path = "cordova-plugin-lz-PdfViewer/PdfViewer.h"; sourceTree = "<group>"; };
+		C5A961E39037475BAF00D33C /* UIXToolbarView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = UIXToolbarView.h; path = "cordova-plugin-lz-PdfViewer/UIXToolbarView.h"; sourceTree = "<group>"; };
+		C8361029BB964FB297F52B81 /* CGPDFDocument.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CGPDFDocument.m; path = "cordova-plugin-lz-PdfViewer/CGPDFDocument.m"; sourceTree = "<group>"; };
+		C889FFBE8166413290D361F5 /* Reader-Mark-Y@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Mark-Y@2x.png"; sourceTree = "<group>"; };
+		CC1F35B7A2F24B98AAE64267 /* Reader-Export.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Export.png"; sourceTree = "<group>"; };
+		CEEBE0C9FC5642E89C4091CD /* ThumbsViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ThumbsViewController.m; path = "cordova-plugin-lz-PdfViewer/ThumbsViewController.m"; sourceTree = "<group>"; };
+		D06EC48578E94F33A6FF05A6 /* Reader-Thumbs@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Thumbs@2x.png"; sourceTree = "<group>"; };
+		D5C5AFAF18654F3492B1C67F /* ThumbsViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ThumbsViewController.h; path = "cordova-plugin-lz-PdfViewer/ThumbsViewController.h"; sourceTree = "<group>"; };
+		D826D83256F4413085438230 /* CGPDFDocument.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CGPDFDocument.h; path = "cordova-plugin-lz-PdfViewer/CGPDFDocument.h"; sourceTree = "<group>"; };
+		D8D53CA517474875B06FE52E /* Reader-Email.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Email.png"; sourceTree = "<group>"; };
+		DC67016664CA4B13B944E8B7 /* ReaderDocumentOutline.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderDocumentOutline.h; path = "cordova-plugin-lz-PdfViewer/ReaderDocumentOutline.h"; sourceTree = "<group>"; };
+		E182B7C59E5346AB947C8955 /* ReaderThumbQueue.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbQueue.m; path = "cordova-plugin-lz-PdfViewer/ReaderThumbQueue.m"; sourceTree = "<group>"; };
+		E2DD44438C68425AA6D60930 /* ReaderContentPage.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderContentPage.m; path = "cordova-plugin-lz-PdfViewer/ReaderContentPage.m"; sourceTree = "<group>"; };
+		E4233F11C77B4A41A59C8179 /* ReaderContentView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderContentView.h; path = "cordova-plugin-lz-PdfViewer/ReaderContentView.h"; sourceTree = "<group>"; };
+		E4CE84F16AB64487ACAAEF24 /* PdfViewer.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = PdfViewer.m; path = "cordova-plugin-lz-PdfViewer/PdfViewer.m"; sourceTree = "<group>"; };
+		E62514D8D9544970A2ED3055 /* Reader-Thumbs@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Thumbs@3x.png"; sourceTree = "<group>"; };
+		E6793B2CC3E845BDA5707383 /* ReaderContentView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderContentView.m; path = "cordova-plugin-lz-PdfViewer/ReaderContentView.m"; sourceTree = "<group>"; };
+		E6E7359B88874B988042931B /* ReaderMainPagebar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderMainPagebar.m; path = "cordova-plugin-lz-PdfViewer/ReaderMainPagebar.m"; sourceTree = "<group>"; };
+		E79409EDCE8C499B9F06680F /* Reader-Print.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Print.png"; sourceTree = "<group>"; };
+		EAE6109784E34BF995B402EE /* ReaderContentTile.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderContentTile.h; path = "cordova-plugin-lz-PdfViewer/ReaderContentTile.h"; sourceTree = "<group>"; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F1A5D3EA1DB74E09B1DD4F96 /* CDVStatusBar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; };
+		F3837B547BAD437AA7F64F9D /* Localizable.strings */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		F78EA2B8077F4255B27E619E /* Reader-Mark-N.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Reader-Mark-N.png"; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = AideMemoire/config.xml; sourceTree = "<group>"; };
+		FB48C43B0C754D2CBE3CEDB7 /* ReaderDocument.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ReaderDocument.m; path = "cordova-plugin-lz-PdfViewer/ReaderDocument.m"; sourceTree = "<group>"; };
+		FF42464D5105489392E8CF75 /* ReaderContentPage.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ReaderContentPage.h; path = "cordova-plugin-lz-PdfViewer/ReaderContentPage.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = AideMemoire/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* AideMemoire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* AideMemoire-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = AideMemoire;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E8BE7071FD23C71009DF345 /* Images-2.xcassets */,
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* AideMemoire-Info.plist */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				F3837B547BAD437AA7F64F9D /* Localizable.strings */,
+				74BECC11B34A4CE79E28F5F1 /* Reader-Button-H.png */,
+				1A63E091597445CC9A6DAFDF /* Reader-Button-H@2x.png */,
+				4DCBC07965A9450583D23D34 /* Reader-Button-H@3x.png */,
+				1625950FC27048B48763974F /* Reader-Button-N.png */,
+				3A4B306427894532A1716339 /* Reader-Button-N@2x.png */,
+				BB3161D50686436998F808F8 /* Reader-Button-N@3x.png */,
+				D8D53CA517474875B06FE52E /* Reader-Email.png */,
+				C04B651E175C4580BEBF1270 /* Reader-Email@2x.png */,
+				4737DD4CF4464C72A33C8A29 /* Reader-Email@3x.png */,
+				CC1F35B7A2F24B98AAE64267 /* Reader-Export.png */,
+				65790E661CA24E3FB020083B /* Reader-Export@2x.png */,
+				76E5EF4BD4894229B732B225 /* Reader-Export@3x.png */,
+				F78EA2B8077F4255B27E619E /* Reader-Mark-N.png */,
+				C2689DA92FB84BFA9728AD14 /* Reader-Mark-N@2x.png */,
+				C0D750FB54464E718F1B701D /* Reader-Mark-N@3x.png */,
+				A946DE4655774E81974F5322 /* Reader-Mark-Y.png */,
+				C889FFBE8166413290D361F5 /* Reader-Mark-Y@2x.png */,
+				87D585F8C7D74687BC75912E /* Reader-Mark-Y@3x.png */,
+				E79409EDCE8C499B9F06680F /* Reader-Print.png */,
+				1C81249E64D1433289B4081B /* Reader-Print@2x.png */,
+				0CC547E6380F4D7994A38823 /* Reader-Print@3x.png */,
+				549FC3EF9A75435EB1A36F2D /* Reader-Thumbs.png */,
+				D06EC48578E94F33A6FF05A6 /* Reader-Thumbs@2x.png */,
+				E62514D8D9544970A2ED3055 /* Reader-Thumbs@3x.png */,
+			);
+			name = Resources;
+			path = AideMemoire/Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+				6E70A8BA1FD05EE10008A492 /* Cordova.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				C8361029BB964FB297F52B81 /* CGPDFDocument.m */,
+				E4CE84F16AB64487ACAAEF24 /* PdfViewer.m */,
+				5552C5176BC24428A21E8BF7 /* ReaderConstants.m */,
+				E2DD44438C68425AA6D60930 /* ReaderContentPage.m */,
+				301A9FB54CF34225AD666741 /* ReaderContentTile.m */,
+				E6793B2CC3E845BDA5707383 /* ReaderContentView.m */,
+				FB48C43B0C754D2CBE3CEDB7 /* ReaderDocument.m */,
+				C281998189574362892FE563 /* ReaderDocumentOutline.m */,
+				E6E7359B88874B988042931B /* ReaderMainPagebar.m */,
+				3D87C65111294662BAE1C1F7 /* ReaderMainToolbar.m */,
+				5F8C383B2DB446FAA89EEC3F /* ReaderThumbCache.m */,
+				C2822959DABD48819379F232 /* ReaderThumbFetch.m */,
+				E182B7C59E5346AB947C8955 /* ReaderThumbQueue.m */,
+				33851AA503DB4C13990B6A86 /* ReaderThumbRender.m */,
+				41982A0DF1FA444B96176B4C /* ReaderThumbRequest.m */,
+				A07959F79F3B46B99A05D71B /* ReaderThumbsView.m */,
+				9F9247169D404244A874A6D8 /* ReaderThumbView.m */,
+				6444B99D7CC14B68BEDA4425 /* ReaderViewController.m */,
+				C2A45FD2C83F44EC864F2D1B /* ThumbsMainToolbar.m */,
+				CEEBE0C9FC5642E89C4091CD /* ThumbsViewController.m */,
+				0973A620FE5E4CC4B2C799FF /* UIXToolbarView.m */,
+				D826D83256F4413085438230 /* CGPDFDocument.h */,
+				C444D59860B945A493ED5274 /* PdfViewer.h */,
+				AB3A5E559B844D8B9909F450 /* ReaderConstants.h */,
+				FF42464D5105489392E8CF75 /* ReaderContentPage.h */,
+				EAE6109784E34BF995B402EE /* ReaderContentTile.h */,
+				E4233F11C77B4A41A59C8179 /* ReaderContentView.h */,
+				01C0301343C344D9A3FFD4E6 /* ReaderDocument.h */,
+				DC67016664CA4B13B944E8B7 /* ReaderDocumentOutline.h */,
+				266EFE82663B40DDA76EA78E /* ReaderMainPagebar.h */,
+				8781DAFA4899413388AE3737 /* ReaderMainToolbar.h */,
+				C17E1F7B59154DCFB1AB0553 /* ReaderThumbCache.h */,
+				1EFB3BB029954C89B1A74F89 /* ReaderThumbFetch.h */,
+				8026310938AD4902BD8FA26D /* ReaderThumbQueue.h */,
+				9CB50CA4BD1E4CF4B65E5AF7 /* ReaderThumbRender.h */,
+				7E7990EA5D7246039E913EF4 /* ReaderThumbRequest.h */,
+				B5FC0155EE4946F78FA9A206 /* ReaderThumbsView.h */,
+				104B9EBA1FB245FE809A9DEA /* ReaderThumbView.h */,
+				1C0C3B8F6D2E40D3B7BDDBA7 /* ReaderViewController.h */,
+				A90B37E0013F4FF9870E5235 /* ThumbsMainToolbar.h */,
+				D5C5AFAF18654F3492B1C67F /* ThumbsViewController.h */,
+				C5A961E39037475BAF00D33C /* UIXToolbarView.h */,
+				9F2F6F8A1186412EB9FEB0D1 /* CDVStatusBar.m */,
+				F1A5D3EA1DB74E09B1DD4F96 /* CDVStatusBar.h */,
+				50EF51A9EEC2425EB9BEA9AA /* CDVInAppBrowser.m */,
+				1DD4EB6817754CAB9E28F533 /* CDVInAppBrowser.h */,
+			);
+			name = Plugins;
+			path = AideMemoire/Plugins;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* AideMemoire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AideMemoire" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = AideMemoire;
+			productName = AideMemoire;
+			productReference = 1D6058910D05DD3D006BFB54 /* AideMemoire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 937J4HGPAE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AideMemoire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* AideMemoire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E70A8BA1FD05EE10008A492 /* Cordova.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cordova.framework;
+			remoteRef = 6E70A8B91FD05EE10008A492 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				6E8BE7081FD23C71009DF345 /* Images-2.xcassets in Resources */,
+				B72DB9B1EE8D4549BA2DCEEE /* Localizable.strings in Resources */,
+				6D063838A0FA45FF94BDA6AF /* Reader-Button-H.png in Resources */,
+				0CF535AD387E41F29737D679 /* Reader-Button-H@2x.png in Resources */,
+				B214C436994A46A0BBD5EE3B /* Reader-Button-H@3x.png in Resources */,
+				F6CD25A159064FABA276DF7F /* Reader-Button-N.png in Resources */,
+				B4CD83F7ED29473790746E0C /* Reader-Button-N@2x.png in Resources */,
+				2754F670FF424C1085F7D1FB /* Reader-Button-N@3x.png in Resources */,
+				1EFE03821907446B9856F48C /* Reader-Email.png in Resources */,
+				FC0D00E3C0A74E94801580BB /* Reader-Email@2x.png in Resources */,
+				102E3FCCCE274ABFAACAD839 /* Reader-Email@3x.png in Resources */,
+				322BA53C2F5A406E909853D8 /* Reader-Export.png in Resources */,
+				AFCFA00E62664FA0B6312E39 /* Reader-Export@2x.png in Resources */,
+				E1D4D1E81955463BACB20528 /* Reader-Export@3x.png in Resources */,
+				B8A32489DB5B4CE294380143 /* Reader-Mark-N.png in Resources */,
+				BA74D645E6914EC9AB70CCC0 /* Reader-Mark-N@2x.png in Resources */,
+				FCC9A316604A4757BFAA15F2 /* Reader-Mark-N@3x.png in Resources */,
+				E9AC3F86806843CCB06C5809 /* Reader-Mark-Y.png in Resources */,
+				C1A1ED7F519E4B4682E23B8D /* Reader-Mark-Y@2x.png in Resources */,
+				22839570AAEA42D392622659 /* Reader-Mark-Y@3x.png in Resources */,
+				794741BAAB254C6587A193A6 /* Reader-Print.png in Resources */,
+				F1F80C92821246088CE360E6 /* Reader-Print@2x.png in Resources */,
+				0EB4AEB6D8164742A79C4DEE /* Reader-Print@3x.png in Resources */,
+				864320CA3059450093858761 /* Reader-Thumbs.png in Resources */,
+				C611F0370E66426387BBA3BB /* Reader-Thumbs@2x.png in Resources */,
+				40AC026E4748433391EA8E87 /* Reader-Thumbs@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				4748890B1308402EB4FCCCCB /* CGPDFDocument.m in Sources */,
+				554F8E3F77DA4503B8A109A6 /* PdfViewer.m in Sources */,
+				9DB605BCFB61496E888FFC42 /* ReaderConstants.m in Sources */,
+				B561A8BFC2434D60A5168940 /* ReaderContentPage.m in Sources */,
+				740316B0DE8E442C9E7D6A9A /* ReaderContentTile.m in Sources */,
+				5A2B0B29A3D84A449E771EAD /* ReaderContentView.m in Sources */,
+				9325916AF6304C08B01CAFD9 /* ReaderDocument.m in Sources */,
+				9E7332AB0D1D4E9CAB933B0F /* ReaderDocumentOutline.m in Sources */,
+				E3550D37170A47C1AA50E7CF /* ReaderMainPagebar.m in Sources */,
+				7AA22BFA825B40C3A8EA529A /* ReaderMainToolbar.m in Sources */,
+				447F6B4229FA4EEF91195052 /* ReaderThumbCache.m in Sources */,
+				9C02AD806EFD4C7CAC9C7B35 /* ReaderThumbFetch.m in Sources */,
+				02D1FACDBA884E2AA81F4CDB /* ReaderThumbQueue.m in Sources */,
+				12D20B309EEB4629AE3F1812 /* ReaderThumbRender.m in Sources */,
+				BC0C3C77A00747BE8901BD7E /* ReaderThumbRequest.m in Sources */,
+				C7FAEABEFFFE456C8525111C /* ReaderThumbsView.m in Sources */,
+				B9DE777C7B3E4C1BACCA9D4B /* ReaderThumbView.m in Sources */,
+				005C56D89D1F4073B85A3D8A /* ReaderViewController.m in Sources */,
+				3D2E0174746643E197DCFEBF /* ThumbsMainToolbar.m in Sources */,
+				24FDEC8C65924BD0B4989014 /* ThumbsViewController.m in Sources */,
+				3C79097DE3EF499D918C3224 /* UIXToolbarView.m in Sources */,
+				C46050ACE8ED43448349B3B3 /* CDVStatusBar.m in Sources */,
+				06D409956589499AA5F0A11A /* CDVInAppBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 937J4HGPAE;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AideMemoire/AideMemoire-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "AideMemoire/AideMemoire-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = AideMemoire;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 937J4HGPAE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AideMemoire/AideMemoire-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "AideMemoire/AideMemoire-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = AideMemoire;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AideMemoire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AideMemoire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

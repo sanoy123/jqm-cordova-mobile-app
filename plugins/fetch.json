@@ -1,0 +1,42 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-lz-PdfViewer": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-lz-pdfviewer@^1.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-document-viewer": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/sitewaerts/cordova-plugin-document-viewer.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@2.3.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-inappbrowser": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-inappbrowser@1.7.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

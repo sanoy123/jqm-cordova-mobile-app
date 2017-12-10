@@ -1,0 +1,62 @@
+{
+  "_from": "cordova-plugin-lz-pdfviewer",
+  "_id": "cordova-plugin-lz-pdfviewer@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Xac0zpceHRbnC6W5skHrn+MfrzA=",
+  "_location": "/cordova-plugin-lz-pdfviewer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-lz-pdfviewer",
+    "name": "cordova-plugin-lz-pdfviewer",
+    "escapedName": "cordova-plugin-lz-pdfviewer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-lz-pdfviewer/-/cordova-plugin-lz-pdfviewer-1.0.0.tgz",
+  "_shasum": "5da734ce971e1d16e70ba5b9b241eb9fe31faf30",
+  "_spec": "cordova-plugin-lz-pdfviewer",
+  "_where": "/Users/yonasamsalu/MobileApp/aidmemoire",
+  "author": {
+    "name": "Kishan Rathod"
+  },
+  "bugs": {
+    "url": "https://github.com/KishanRathod/cordova-plugin-lz-pdfviewer/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-lz-PdfViewer",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin to view PDF files on iOS",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/KishanRathod/cordova-plugin-lz-pdfviewer#readme",
+  "keywords": [
+    "cordova",
+    "ios",
+    "pdf",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-lz-pdfviewer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KishanRathod/cordova-plugin-lz-pdfviewer.git"
+  },
+  "version": "1.0.0"
+}

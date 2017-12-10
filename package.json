@@ -1,0 +1,36 @@
+{
+  "name": "com.unocha.aidememoire",
+  "displayName": "AideMemoire",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^6.3.0",
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-document-viewer": "git+https://github.com/sitewaerts/cordova-plugin-document-viewer.git",
+    "cordova-plugin-inappbrowser": "^1.7.2",
+    "cordova-plugin-lz-PdfViewer": "~1.0.0",
+    "cordova-plugin-lz-pdfviewer": "^1.0.0",
+    "cordova-plugin-statusbar": "^2.3.0",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-windows": "^5.0.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-lz-PdfViewer": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-inappbrowser": {}
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "windows"
+    ]
+  }
+}

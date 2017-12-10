@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.min.css" />
+    <link rel="stylesheet" href="css/waves.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/nativedroid2.css" />
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/waves.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nativedroid2.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <title>Aide Memoire</title>
+
+
+</head>
+
+<body id="container">
+
+    <div data-role="page" id="loading" style="background:#0472ca;">
+        <img src="img/logo.png" alt="Home">
+    </div>
+
+    <div data-role="page" id="home">
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="" class="wow fadeIn">
+            <a onclick="javascript: app.readAidreMemoire();" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-refresh-alt"></i></a>
+            <h1 class="wow fadeIn" data-wow-delay='0.4s'>Aide Memoire</h1>
+        </div>
+        <div class="wow fadeIn ui-sub-header" data-position="fixed" class="wow fadeIn">
+
+            <h1 class="wow ui-title fadeIn" data-wow-delay='0.4s'><i class='zmdi zmdi-home'></i> Theme/Issue</h1>
+        </div>
+
+        <div role="main" class="ui-content wow fadeIn" data-inset="false" data-wow-delay="0.2s">
+            <ul data-role="listview" data-filter="true" id="theme-list" class="ui-listview" data-icon="false">
+            </ul>
+            <div data-role="page" id="main-page"></div>
+
+        </div>
+        <div data-role="footer" id="bottomsheetblock" class="ui-bottom-sheet" data-animate="false" data-position='fixed'>
+
+            <div class='row around-xs'>
+                <div class='col-xs-auto'>
+                    <a href='#home' class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false'><i class='zmdi zmdi-home zmd-2x'></i><strong>Theme</strong></a>
+                </div>
+                <div class='col-xs-auto'>
+                    <a href='/res/aide_memoire.pdf' data-ajax="false" target="_blank" id="download" class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false' download><i class='zmdi zmdi-collection-pdf zmd-2x'></i><strong>Read</strong></a>
+                </div>
+                <div class='col-xs-auto'>
+                    <a href='/res/aide_memoire.pdf' data-ajax="false" target="_blank" id="download" class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false' download><i class='zmdi zmdi-smartphone-download zmd-2x'></i><strong>Download</strong></a>
+                </div>
+                <div class='col-xs-auto'>
+                    <a href='#info' class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false'><i class='zmdi zmdi-info zmd-2x'></i><strong>Info</strong></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+
+    <div data-role="page" id="info">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" class="wow fadeIn">
+            <h1 class="wow fadeIn" data-wow-delay='0.4s'><a href="#home"><i class='zmdi zmdi-arrow-back'></i> Back</a> &nbsp;&nbsp;&nbsp;About</h1>
+
+
+        </div>
+        <article data-role="content" class="ui-content wow fadeIn" data-inset="false" data-wow-delay="0.2s">
+            <div class="info-header">
+                <h3>Security Council Practice on the Protection of Civilians in Armed Conflict</h3>
+                <img class="img" src="img/aide_memoire.png" style="text-align:center;" align="center">
+            </div>
+            <p>
+                The Aide Memoire reflects language on the Protection of Civilians in Security Council resolutions and presidential statements until October 2015. It includes new language regarding peace operations’ protection role; the arbitrary denial of access for
+                humanitarian organizations and the wilful deprivation of objects necessary to survival; specific tactics used by parties to conflict which must be condemned, including the starvation of civilian populations, the indiscriminate use of weapons,
+                or the targeting of civilians based on ethnicity or religion; or the arbitrary deprivation of liberty and the treatment and protection of detainees. This latest edition also reflects new language from recent thematic Security Council resolutions
+                and presidential statements on Children and Armed Conflict, and Women, Peace and Security.
+            </p>
+        </article>
+        <div data-role="footer" id="bottomsheetblock" class="ui-bottom-sheet" data-animate="false" data-position='fixed'>
+
+            <div class='row around-xs'>
+                <div class='col-xs-auto'>
+                    <a href='#home' class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false'><i class='zmdi zmdi-home zmd-2x'></i><strong>Theme</strong></a>
+                </div>
+                <div class='col-xs-auto'>
+                    <a href='/res/aide_memoire.pdf' data-ajax="false" target="_blank" id="download" class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false' download><i class='zmdi zmdi-collection-pdf zmd-2x'></i><strong>Read</strong></a>
+                </div>
+                <div class='col-xs-auto'>
+                    <a href='/res/aide_memoire.pdf' data-ajax="false" target="_blank" id="download" class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false' download><i class='zmdi zmdi-smartphone-download zmd-2x'></i><strong>Download</strong></a>
+                </div>
+                <div class='col-xs-auto'>
+                    <a href='#info' class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false'><i class='zmdi zmdi-info zmd-2x'></i><strong>Info</strong></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div data-role="page" id="download">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" class="wow fadeIn">
+            <h1 class="wow fadeIn" data-wow-delay='0.4s'><i class='zmdi zmdi-arrow-back'></i> Back &nbsp;&nbsp;&nbsp;Downloads</h1>
+
+        </div>
+        <article data-role="content">
+            <div class="info-header">
+                <h2>AIDE MEMOIRE</h2>
+            </div>
+            <p>
+
+                <object id="pdfViewer" width="100% " height="100% " data="res/aide_memoire.pdf "></object>
+
+
+
+            </p>
+        </article>
+        <div data-role="footer " id="bottomsheetblock " class="ui-bottom-sheet " data-animate="false " data-position='fixed'>
+
+            <div class='row around-xs'>
+                <div class='col-xs-auto'>
+                    <a href='#home' class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false'><i class='zmdi zmdi-home zmd-2x'></i><strong>Theme</strong></a>
+                </div>
+                <div class='col-xs-auto'>
+                    <a href='/res/aide_memoire.pdf' data-ajax="false" target="_blank" id="download" class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false' download><i class='zmdi zmdi-collection-pdf zmd-2x'></i><strong>Read</strong></a>
+                </div>
+                <div class='col-xs-auto'>
+                    <a href='/res/aide_memoire.pdf' data-ajax="false" target="_blank" id="download" class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false' download><i class='zmdi zmdi-smartphone-download zmd-2x'></i><strong>Download</strong></a>
+                </div>
+                <div class='col-xs-auto'>
+                    <a href='#info' class='ui-bottom-sheet-link ui-btn ui-btn-inline waves-effect waves-button waves-effect waves-button' data-ajax='false'><i class='zmdi zmdi-info zmd-2x'></i><strong>Info</strong></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript " src="cordova.js "></script>
+    <script type="text/javascript " src="js/index.js "></script>
+</body>
+
+</html>

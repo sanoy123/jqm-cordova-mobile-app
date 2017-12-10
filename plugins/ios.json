@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.unocha.aidememoire"
+    },
+    "cordova-plugin-lz-PdfViewer": {
+      "PACKAGE_NAME": "com.unocha.aidememoire"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.unocha.aidememoire"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.unocha.aidememoire"
+    }
+  },
+  "dependent_plugins": {}
+}
